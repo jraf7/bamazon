@@ -1,7 +1,7 @@
 DROP DATABASE IF EXISTS bamazon;
 CREATE DATABASE bamazon;
 
-INSERT INTO Products (product_name, department_name, price, stock_quantity)
+INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES
     ("Pencil", "School Supplies", .30, 50),
     ("Paper", "School Supplies", .05, 100),
@@ -12,5 +12,5 @@ VALUES
     ("Vase", "Decor", 40, 1),
     ("Statue", "Decor", 900, 1),
     ("Lava Lamp Clock", "Houseware", 14.00, 3),
-    ("Sweater", "Clothing", 4.00, 2)
+    ("Sweater", "Clothing", 4.00, 2);
 
